@@ -73,3 +73,17 @@ form button:hover {
 #weight-guide h3 {
     margin-top: 0;
 }
+
+button[type="reset"] {
+    padding: 10px;
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+button[type="reset"]:hover {
+    background-color: #da190b;
+}

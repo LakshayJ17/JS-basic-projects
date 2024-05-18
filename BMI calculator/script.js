@@ -30,6 +30,15 @@ form.addEventListener('submit', (e) => {
             results.innerHTML += '<br>You are overweight.';
         }
     }
+    
 
 })
+form.addEventListener('reset',(e)=>{
+    document.querySelector('#height').value = '';
+    document.querySelector('#weight').value = '';
+    document.querySelector('#results').style.display = 'none';
+})
+
+
+
 
